@@ -1,0 +1,3 @@
+C:\DEVELOPMENT\Development\KSPTestPlugin\Output\Plugins\KSPTestPlugin.dll
+C:\DEVELOPMENT\Development\KSPTestPlugin\KSPTestPlugin\obj\Release\KSPTestPlugin.csprojResolveAssemblyReference.cache
+C:\DEVELOPMENT\Development\KSPTestPlugin\KSPTestPlugin\obj\Release\KSPTestPlugin.dll
