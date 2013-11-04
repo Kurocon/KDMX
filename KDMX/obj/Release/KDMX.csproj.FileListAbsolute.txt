@@ -1,3 +1,6 @@
 C:\DEVELOPMENT\Development\KDMX\KDMX\obj\Release\KDMX.csprojResolveAssemblyReference.cache
 C:\DEVELOPMENT\Development\KDMX\Output\GameData\Kurocon\Plugins\KDMX.dll
 C:\DEVELOPMENT\Development\KDMX\KDMX\obj\Release\KDMX.dll
+C:\DEVELOPMENT\KDMX\Output\GameData\Kurocon\Plugins\KDMX.dll
+C:\DEVELOPMENT\KDMX\KDMX\obj\Release\KDMX.dll
+C:\DEVELOPMENT\KDMX\KDMX\obj\Release\KDMX.csprojResolveAssemblyReference.cache
