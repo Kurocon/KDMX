@@ -43,65 +43,57 @@ namespace KDMX
 
                 print("[KDMX] Adding hooks to GameEvents");
                 GameEvents.onCollision.Add(this.onCollisionHook);
+                print("[KDMX] Hook added: onCollision");
                 GameEvents.onCrash.Add(this.onCrashHook);
+                print("[KDMX] Hook added: onCrash");
                 GameEvents.onCrashSplashdown.Add(this.onCrashSplashdownHook);
+                print("[KDMX] Hook added: onCrashSplashdown");
                 GameEvents.onCrewBoardVessel.Add(this.onCrewBoardVesselHook);
+                print("[KDMX] Hook added: onCrewBoardVessel");
                 GameEvents.onCrewKilled.Add(this.onCrewKilledHook);
+                print("[KDMX] Hook added: onCrewKilled");
                 GameEvents.onCrewOnEva.Add(this.onCrewOnEvaHook);
+                print("[KDMX] Hook added: onCrewEva");
                 GameEvents.onDominantBodyChange.Add(this.onDominantBodyChangeHook);
-                GameEvents.onFlightReady.Add(this.onFlightReadyHook);
+                print("[KDMX] Hook added: onDominantBodyChange");
                 GameEvents.onGamePause.Add(this.onGamePauseHook);
-                GameEvents.onGameSceneLoadRequested.Add(this.onGameSceneLoadRequestedHook);
-                GameEvents.onGameStateCreated.Add(this.onGameStateCreatedHook);
-                GameEvents.onGameStateSaved.Add(this.onGameStateSavedHook);
+                print("[KDMX] Hook added: onGamePause");
                 GameEvents.onGameUnpause.Add(this.onGameUnpauseHook);
-                GameEvents.onGUIAstronautComplexDespawn.Add(this.onGUIAstronautComplexDespawnHook);
-                GameEvents.onGUIAstronautComplexSpawn.Add(this.onGUIAstronautComplexSpawnHook);
-                GameEvents.onGUILaunchScreenDespawn.Add(this.onGUILaunchScreenDespawnHook);
-                GameEvents.onGUILaunchScreenSpawn.Add(this.onGUILaunchScreenSpawnHook);
-                GameEvents.onGUIRecoveryDialogDespawn.Add(this.onGUIRecoveryDialogDespawnHook);
-                GameEvents.onGUIRecoveryDialogSpawn.Add(this.onGUIRecoveryDialogSpawnHook);
-                GameEvents.onGUIRnDComplexDespawn.Add(this.onGUIRnDComplexDespawnHook);
-                GameEvents.onGUIRnDComplexSpawn.Add(this.onGUIRnDComplexSpawnHook);
-                GameEvents.onHideUI.Add(this.onHideUIHook);
+                print("[KDMX] Hook added: onGameUnpause");
                 GameEvents.onJointBreak.Add(this.onJointBreakHook);
+                print("[KDMX] Hook added: onJointBreak");
                 GameEvents.onLaunch.Add(this.onLaunchHook);
+                print("[KDMX] Hook added: onLaunch");
                 GameEvents.onOverheat.Add(this.onOverheatHook);
-                GameEvents.onPartAttach.Add(this.onPartAttachHook);
+                print("[KDMX] Hook added: onOverheat");
                 GameEvents.onPartCouple.Add(this.onPartCoupleHook);
-                GameEvents.onPartDie.Add(this.onPartDieHook);
+                print("[KDMX] Hook added: onPartCouple");
                 GameEvents.onPartExplode.Add(this.onPartExplodeHook);
-                GameEvents.OnPartPurchased.Add(this.onPartPurchasedHook);
-                GameEvents.onPartRemove.Add(this.onPartRemoveHook);
+                print("[KDMX] Hook added: onPartExplode");
                 GameEvents.onPartUndock.Add(this.onPartUndockHook);
-                GameEvents.onPlanetariumTargetChanged.Add(this.onPlanetariumTargetChangedHook);
-                GameEvents.OnProgressComplete.Add(this.onProgressCompleteHook);
-                GameEvents.OnProgressReached.Add(this.onProgressReachedHook);
+                print("[KDMX] Hook added: onPartUndock");
                 GameEvents.onSameVesselDock.Add(this.onSameVesselDockHook);
+                print("[KDMX] Hook added: onSameVesselDock");
                 GameEvents.onSameVesselUndock.Add(this.onSameVesselUndockHook);
-                GameEvents.onShowUI.Add(this.onShowUIHook);
+                print("[KDMX] Hook added: onSameVesselUndock");
                 GameEvents.onSplashDamage.Add(this.onSplashDamageHook);
+                print("[KDMX] Hook added: onSplashDamage");
                 GameEvents.onStageActivate.Add(this.onStageActivateHook);
+                print("[KDMX] Hook added: onStageActivate");
                 GameEvents.onStageSeparation.Add(this.onStageSeparationHook);
-                GameEvents.OnTechnologyResearched.Add(this.onTechnologyResearchedHook);
+                print("[KDMX] Hook added: onStageSeperation");
                 GameEvents.onTimeWarpRateChanged.Add(this.onTimeWarpRateChangedHook);
+                print("[KDMX] Hook added: onTimeWarpRateChanged");
                 GameEvents.onUndock.Add(this.onUndockHook);
-                GameEvents.onVesselChange.Add(this.onVesselChangeHook);
-                GameEvents.onVesselCreate.Add(this.onVesselCreateHook);
-                GameEvents.onVesselDestroy.Add(this.onVesselDestroyHook);
-                GameEvents.onVesselGoOffRails.Add(this.onVesselGoOffRailsHook);
-                GameEvents.onVesselGoOnRails.Add(this.onVesselGoOnRailsHook);
-                GameEvents.onVesselLoaded.Add(this.onVesselLoadedHook);
+                print("[KDMX] Hook added: onUndock");
                 GameEvents.onVesselOrbitClosed.Add(this.onVesselOrbitClosedHook);
+                print("[KDMX] Hook added: onVesselOrbitClosed");
                 GameEvents.onVesselOrbitEscaped.Add(this.onVesselOrbitEscapedHook);
-                GameEvents.onVesselRecovered.Add(this.onVesselRecoveredHook);
-                GameEvents.OnVesselRecoveryRequested.Add(this.OnVesselRecoveryRequestedHook);
-                GameEvents.onVesselRename.Add(this.onVesselRenameHook);
-                GameEvents.onVesselSituationChange.Add(this.onVesselSituationChangeHook);
-                GameEvents.onVesselSOIChanged.Add(this.onVesselSOIChangedHook);
-                GameEvents.onVesselTerminated.Add(this.onVesselTerminatedHook);
-                GameEvents.onVesselWasModified.Add(this.onVesselWasModifiedHook);
+                print("[KDMX] Hook added: onVesselOrbitEscaped");
                 print("[KDMX] Hooks added");
+
+                KDMXHandler.startDMX();
+                print("[KDMX] DMX Handler initialized");
             }
             else
             {
@@ -184,7 +176,7 @@ namespace KDMX
 
         /* Debug print to console code */
         public static void outputConsole(string output){
-            print(output);
+            print("[KDMX] " + output);
         }
 
         /* Event handlers */
@@ -216,65 +208,13 @@ namespace KDMX
         {
             KDMXHandler.handleHook("onDominantBodyChange");
         }
-        public void onFlightReadyHook()
-        {
-            KDMXHandler.handleHook("onFlightReady");
-        }
         public void onGamePauseHook()
         {
             KDMXHandler.handleHook("onGamePause");
         }
-        public void onGameSceneLoadRequestedHook(GameScenes data)
-        {
-            KDMXHandler.handleHook("onGameSceneLoadRequested");
-        }
-        public void onGameStateCreatedHook(Game data)
-        {
-            KDMXHandler.handleHook("onGameStateCreated");
-        }
-        public void onGameStateSavedHook(Game data)
-        {
-            KDMXHandler.handleHook("onGameStateSaved");
-        }
         public void onGameUnpauseHook()
         {
             KDMXHandler.handleHook("onGameUnpause");
-        }
-        public void onGUIAstronautComplexDespawnHook()
-        {
-            KDMXHandler.handleHook("onGUIAstronautComplexDespawn");
-        }
-        public void onGUIAstronautComplexSpawnHook()
-        {
-            KDMXHandler.handleHook("onGUIAstronautComplexSpawn");
-        }
-        public void onGUILaunchScreenDespawnHook()
-        {
-            KDMXHandler.handleHook("onGUILaunchScreenDespawn");
-        }
-        public void onGUILaunchScreenSpawnHook(GameEvents.VesselSpawnInfo data)
-        {
-            KDMXHandler.handleHook("onGUILaunchScreenSpawn");
-        }
-        public void onGUIRecoveryDialogDespawnHook(ExperimentsRecoveryDialog data)
-        {
-            KDMXHandler.handleHook("onGUIRecoveryDialogDespawn");
-        }
-        public void onGUIRecoveryDialogSpawnHook(ExperimentsRecoveryDialog data)
-        {
-            KDMXHandler.handleHook("onGUIRecoveryDialogSpawn");
-        }
-        public void onGUIRnDComplexDespawnHook()
-        {
-            KDMXHandler.handleHook("onGUIRnDComplexDespawn");
-        }
-        public void onGUIRnDComplexSpawnHook()
-        {
-            KDMXHandler.handleHook("onGUIRnDComplexSpawn");
-        }
-        public void onHideUIHook()
-        {
-            KDMXHandler.handleHook("onHideUI");
         }
         public void onJointBreakHook(EventReport data)
         {
@@ -288,45 +228,17 @@ namespace KDMX
         {
             KDMXHandler.handleHook("onOverheat");
         }
-        public void onPartAttachHook(GameEvents.HostTargetAction<Part,Part> data)
-        {
-            KDMXHandler.handleHook("onPartAttach");
-        }
         public void onPartCoupleHook(GameEvents.FromToAction<Part,Part> data)
         {
             KDMXHandler.handleHook("onPartCouple");
-        }
-        public void onPartDieHook(Part data)
-        {
-            KDMXHandler.handleHook("onPartDie");
         }
         public void onPartExplodeHook(GameEvents.ExplosionReaction data)
         {
             KDMXHandler.handleHook("onPartExplode");
         }
-        public void onPartPurchasedHook(AvailablePart data)
-        {
-            KDMXHandler.handleHook("onPartPurchased");
-        }
-        public void onPartRemoveHook(GameEvents.HostTargetAction<Part, Part> data)
-        {
-            KDMXHandler.handleHook("onPartRemove");
-        }
         public void onPartUndockHook(Part data)
         {
             KDMXHandler.handleHook("onPartUndock");
-        }
-        public void onPlanetariumTargetChangedHook(MapObject data)
-        {
-            KDMXHandler.handleHook("onPlanetariumTargetChanged");
-        }
-        public void onProgressCompleteHook(ProgressNode data)
-        {
-            KDMXHandler.handleHook("onProgressComplete");
-        }
-        public void onProgressReachedHook(ProgressNode data)
-        {
-            KDMXHandler.handleHook("onProgressReached");
         }
         public void onSameVesselDockHook(GameEvents.FromToAction<ModuleDockingNode,ModuleDockingNode> data)
         {
@@ -335,10 +247,6 @@ namespace KDMX
         public void onSameVesselUndockHook(GameEvents.FromToAction<ModuleDockingNode, ModuleDockingNode> data)
         {
             KDMXHandler.handleHook("onSameVesselUndock");
-        }
-        public void onShowUIHook()
-        {
-            KDMXHandler.handleHook("onShowUI");
         }
         public void onSplashDamageHook(EventReport data)
         {
@@ -352,10 +260,6 @@ namespace KDMX
         {
             KDMXHandler.handleHook("onStageSeperation");
         }
-        public void onTechnologyResearchedHook(GameEvents.HostTargetAction<RDTech,RDTech.OperationResult> data)
-        {
-            KDMXHandler.handleHook("onTechnologyResearched");
-        }
         public void onTimeWarpRateChangedHook()
         {
             KDMXHandler.handleHook("onTimeWarpRateChanged");
@@ -364,30 +268,6 @@ namespace KDMX
         {
             KDMXHandler.handleHook("onUndock");
         }
-        public void onVesselChangeHook(Vessel data)
-        {
-            KDMXHandler.handleHook("onVesselChange");
-        }
-        public void onVesselCreateHook(Vessel data)
-        {
-            KDMXHandler.handleHook("onVesselCreate");
-        }
-        public void onVesselDestroyHook(Vessel data)
-        {
-            KDMXHandler.handleHook("onVesselDestroy");
-        }
-        public void onVesselGoOffRailsHook(Vessel data)
-        {
-            KDMXHandler.handleHook("onVesselGoOffRails");
-        }
-        public void onVesselGoOnRailsHook(Vessel data)
-        {
-            KDMXHandler.handleHook("onVesselGoOnRails");
-        }
-        public void onVesselLoadedHook(Vessel data)
-        {
-            KDMXHandler.handleHook("onVesselLoaded");
-        }
         public void onVesselOrbitClosedHook(Vessel data)
         {
             KDMXHandler.handleHook("onVesselOrbitClosed");
@@ -395,34 +275,6 @@ namespace KDMX
         public void onVesselOrbitEscapedHook(Vessel data)
         {
             KDMXHandler.handleHook("onVesselOrbitEscaped");
-        }
-        public void onVesselRecoveredHook(ProtoVessel data)
-        {
-            KDMXHandler.handleHook("onVesselRecovered");
-        }
-        public void OnVesselRecoveryRequestedHook(Vessel data)
-        {
-            KDMXHandler.handleHook("OnVesselRecoveryRequested");
-        }
-        public void onVesselRenameHook(GameEvents.FromToAction<string,string> data)
-        {
-            KDMXHandler.handleHook("onVesselRename");
-        }
-        public void onVesselSituationChangeHook(GameEvents.HostedFromToAction<Vessel,Vessel.Situations> data)
-        {
-            KDMXHandler.handleHook("onVesselSituationChange");
-        }
-        public void onVesselSOIChangedHook(GameEvents.HostedFromToAction<Vessel,CelestialBody> data)
-        {
-            KDMXHandler.handleHook("onVesselSOIChanged");
-        }
-        public void onVesselTerminatedHook(ProtoVessel data)
-        {
-            KDMXHandler.handleHook("onVesselTerminated");
-        }
-        public void onVesselWasModifiedHook(Vessel data)
-        {
-            KDMXHandler.handleHook("onVesselWasModified");
         }
     }
 }
